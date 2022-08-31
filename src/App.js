@@ -49,7 +49,7 @@ const getRandomQuote = () => {
             <button id="new-quote" onClick={() => getRandomQuote()} className="btn btn-default btn-block" style={{color:accentColor}}>Generate New Quote</button>
           </div>
           <div class="">
-            <a id="tweet-quote" target="_blank" href={encodeURI(`http://www.twitter.com/intent/tweet?text=${quote} -${author}`)}>Tweet This</a>
+            <a id="tweet-quote" target="_top" href={encodeURI(`http://www.twitter.com/intent/tweet?text=${quote} -${author}`)}>Tweet This</a>
           </div>
        </div>
       </div>
