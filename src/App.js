@@ -35,7 +35,7 @@ const getRandomQuote = () => {
     <div className="App">
      <header className="App-header" style={{backgroundColor: accentColor}}>
       <div>
-        <h1>QUOTE GENERATOR</h1> 
+        <h1 id="appTitle">QUOTE GENERATOR</h1> 
       </div>
          <div id="quote-box">
         <p id="text" style={{color:accentColor}}>

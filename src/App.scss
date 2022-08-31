@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  #appTitle{
+  color: white;
+
+
+  }
   #quote-box {
     background-color: white;
     border-radius: 5px;
@@ -11,15 +16,17 @@
     #tweet-quote{
        align-content: center;
        border-top: 40px;
+       font-size: 15px;
     }
     button{
       align-content: center;
       border: none;
       border-radius: 10px;
       cursor: pointer;
+      font-size: 90%;
     }
   }
-
+  
 
   .App-header {
     background-color: #282c34;
